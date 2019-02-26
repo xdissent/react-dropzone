@@ -13,7 +13,7 @@ const flushPromises = wrapper =>
       resolve(wrapper)
     })
   )
-const Dropzone = require('./index')
+const Dropzone = require('./index').default
 const DummyChildComponent = () => null
 
 const createFile = (name, size, type) => {
